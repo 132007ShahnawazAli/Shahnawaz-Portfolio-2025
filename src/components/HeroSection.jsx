@@ -12,7 +12,7 @@ function HeroPage() {
         <p className="text-[1.3vw] w-1/2 text-center text-[#D1D1D1] font-normal mix-blend-color-dodge tracking-normal leading-[1.5vw]">Helping startups and brands to craft expressive and engaging solutions for their software needs.</p>
         <div className="flex flex-row gap-[1.5vw] pt-[.8vw] itmes-center justify-center h-fit">
           <CtaButton />
-          <Link href={"#"} className='text-[#DFDCDC] uppercase font-semibold text-[1vw] leading-[2.5vw]'>Learn More</Link>
+          <Link href={"#about"} className='text-[#DFDCDC] uppercase font-semibold text-[1vw] leading-[2.5vw]'>Learn More</Link>
         </div>
       </div>
       <div className="social-links flex flex-col gap-[3vw] w-full">

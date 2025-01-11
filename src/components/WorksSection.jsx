@@ -19,7 +19,7 @@ function WorksSection() {
         }
     ];
     return (
-        <div id='works' name='works' className='mt-[4vw]'>
+        <div id='works' name='works' className='mt-[4vw] mb-[6vw]'>
             <div className="work-heading-wrapper w-full text-end flex flex-col items-end">
                 <h3 className="works heading uppercase text-[5vw] font-moderniz">My Projects</h3>
                 <p className='text-[1.3vw] font-normal w-1/2 text-right mb-[7vw] text-[#f8f8ff] leading-[1.3vw]'>Here are some of the projects I've worked on recently. Each project showcases my skills in web and mobile UX/UI design and development.</p>
