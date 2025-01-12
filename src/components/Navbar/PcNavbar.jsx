@@ -31,7 +31,7 @@ function PcNavbar() {
           <Link href="#about">About</Link>
         </li>
         <li>
-          <a href="/">Faq</a>
+          <Link href="#faq">Faq</Link>
         </li>
         <li>
           <a href="#contact">Contact</a>
