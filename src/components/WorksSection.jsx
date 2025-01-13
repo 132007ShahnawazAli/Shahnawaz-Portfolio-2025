@@ -4,18 +4,23 @@ function WorksSection() {
     const works = [
         {
             id: 1,
-            title: 'Project One',
-            description: 'Description for project one',
+            title: 'Joseph - Thumbnail Designer',
+            image: 'joseph.png'
         },
         {
             id: 2,
-            title: 'Project Two',
-            description: 'Description for project two',
+            title: 'Tomas - Video Editor',
+            image: 'tomas.png'
         },
         {
             id: 3,
-            title: 'Project Three',
-            description: 'Description for project three',
+            title: 'Medscan - Medicine Scanner',
+            image: 'medscan.png'
+        },
+        {
+            id: 4,
+            title: 'Vector - Youtube Agency',
+            image: 'vector.png'
         }
     ];
     return (
@@ -30,7 +35,7 @@ function WorksSection() {
                         } items-center`}>
                         <div className={`w-fit ${work.id % 2 === 0 ? 'md:text-left' : 'md:text-right'} text-${work.id % 2 === 0 ? 'right' : 'left'}`}>
                             <h3 className='md:text-xl font-bold text-[6.5vw] underline underline-offset-[3px] decoration-[1px]  font-moderniz mb-[.5vw] w-full'><a href="#">{work.title}</a></h3>
-                            <div className='md:w-[38vw] md:h-[26vw] w-[90vw] h-[60vw] bg-lime-500'></div>
+                            <div className='md:w-[45vw] md:h-[35vw] w-[90vw] h-[60vw] bg-cover bg-center' style={{ backgroundImage: `url(/assets/projects/${work.image})` }}></div>
                             <p className='mt-[.5vw] text-[#DFDCDC]'>Web development, Designing</p>
                         </div>
                     </div>
