@@ -24,7 +24,7 @@ const accordionData = [
     {
         title: "Are there any refunds if I don't like the service?",
         content: 
-            "Customer satisfaction is my priority. If you're not happy with our service, please reach out, and i will work to address your concerns. Refunds may be available based on specific circumstances."
+            "Customer satisfaction is my priority. If you're not happy with my service, please reach out, and i will work to address your concerns. Refunds may be available based on specific circumstances."
     },
     {
         title: "Do I need a domain?",
@@ -36,7 +36,7 @@ const accordionData = [
 
 const AccordionItem = ({ title, content, isOpen, onClick }) => {
     return (
-        <div className=" bg-slate-200/10 backdrop-blur-lg rounded-md  ">
+        <div className=" bg-slate-200/10 backdrop-blur-lg rounded-lg  ">
             <button
                 className="flex items-center justify-between w-full py-4 px-6 text-left focus:outline-none"
                 onClick={onClick}
@@ -71,7 +71,7 @@ function FaqSection() {
     }
 
     return (
-        <div className="flex  w-full items-start pb-5" id='faq'>
+        <div className="flex md:flex-row flex-col  w-full items-start pb-5 md:gap-0 gap-6" id='faq'>
             <div className="flex-col w-full justify-between items-start">
                 <h3 className="text-[5vw] font-moderniz mt-[4vw] mb-[4vw] uppercase leading-[0]">
                     FAQ'S
@@ -86,7 +86,7 @@ function FaqSection() {
                     </div>
                 </div>
             </div>
-            <div className="accordion flex flex-col gap-3 w-full max-w-[75%] mx-auto overflow-hidden ">
+            <div className="accordion flex flex-col gap-3 w-full md:max-w-[75%]  mx-auto overflow-hidden ">
                 {accordionData.map((item, index) => (
                     <AccordionItem
                         key={index}

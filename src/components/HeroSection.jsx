@@ -5,17 +5,17 @@ import CtaButton from './CtaButton';
 
 function HeroPage() {
   return (
-    <div id='hero' name='hero' className="flex flex-col items-center  min-h-[100vh] w-full justify-between">
+    <div id='hero' name='hero' className="flex flex-col relative items-center sm:min-h-[100vh] w-full justify-between pt-20 sm:pt-0">
       <ResponsiveNavbar />
-      <div className="hero flex flex-col items-center justify-center">
-        <h1 className='font-moderniz w-90% text-center text-[5vw] mix-blend-overlay pt-[.2vw] leading-[6vw]'>Building Aesthetic, High-Performance Websites</h1>
-        <p className="text-[1.3vw] w-1/2 text-center text-[#D1D1D1] font-normal mix-blend-color-dodge tracking-normal leading-[1.5vw]">Helping startups and brands to craft expressive and engaging solutions for their software needs.</p>
-        <div className="flex flex-row gap-[1.5vw] pt-[.8vw] itmes-center justify-center h-fit">
+      <div className="hero flex flex-col items-center justify-center md:gap-0 gap-1">
+        <h1 className='font-moderniz md:w-90% w-[98%] text-center text-[6.5vw] md:text-[5vw] mix-blend-normal md:mix-blend-overlay pt-[.2vw] md:pt-[5vw] md:leading-[6vw] leading-9'>Building Aesthetic, High-Performance Websites</h1>
+        <p className="md:text-[1.3vw] text-[3.5vw] md:w-1/2 w-[80%] text-center text-primary font-normal mix-blend-color-dodge tracking-normal md:leading-[1.5vw] leading-[3vw]">Helping startups and brands to craft expressive and engaging solutions for their software needs.</p>
+        <div className="flex flex-row md:gap-[1.5vw] gap-[2.5vw] pt-[.8vw] itmes-center justify-center h-fit">
           <CtaButton />
-          <Link href={"#about"} className='text-[#DFDCDC] uppercase font-semibold text-[1vw] leading-[2.5vw]'>Learn More</Link>
+          <Link href={"#about"} className='text-[#DFDCDC] uppercase font-semibold md:text-[1vw] text-[3vw] md:leading-[2.5vw] leading-[5vw]'>Learn More</Link>
         </div>
       </div>
-      <div className="social-links flex flex-col gap-[3vw] w-full">
+      <div className="social-links hidden md:flex  flex-col gap-[3vw] w-full ">
         <div className="hero-showcase flex flex-row justify-between items-start uppercase">
           <div className="about-showcase flex flex-col gap-[.7vw] w-fit">
             <h3 className="showcase-header text-[.9vw] font-medium text-[#F8F8FF]">WEB &amp; MOBILE UX/UI / <br />DEVELOPER</h3>

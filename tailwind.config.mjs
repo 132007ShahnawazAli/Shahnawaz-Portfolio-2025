@@ -14,6 +14,8 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        primary:"#D1D1D1",
+        secondary: "#DFDCDC",
       },
       animation: {
         shimmer: "shimmer 2s linear infinite"

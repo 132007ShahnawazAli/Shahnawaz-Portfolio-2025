@@ -5,10 +5,10 @@ import PCNavbar from '@/components/Navbar/PcNavbar';
 const ResponsiveNavbar = () => {
   return (
     <>
-      <div className="navbar-wrapper mobile">
+      <div className="block md:hidden">
         <MobileNavbar />
       </div>
-      <div className="navbar-wrapper pc w-full">
+      <div className="hidden md:block w-full">
         <PCNavbar />
       </div>
     </>
