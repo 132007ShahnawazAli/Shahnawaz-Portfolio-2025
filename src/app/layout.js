@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={` ${interFont.className} ${moderniz.className}  antialiased h-auto flex justify-center`}>
-        {/* <MouseAnimation /> */}
+        <MouseAnimation />
         <div className="background fixed overflow-hidden w-screen h-screen -z-10 ">
           <div className="bg-overlay " />
           <div className="gradients-container">
