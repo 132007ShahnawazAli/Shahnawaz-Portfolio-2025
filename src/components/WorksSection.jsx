@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image';
 
 function WorksSection() {
     const works = [
@@ -35,7 +36,14 @@ function WorksSection() {
                         } items-center`}>
                         <div className={`w-fit ${work.id % 2 === 0 ? 'md:text-left' : 'md:text-right'} text-${work.id % 2 === 0 ? 'right' : 'left'}`}>
                             <h3 className='md:text-xl font-bold text-[6.5vw] underline underline-offset-[3px] decoration-[1px]  font-moderniz mb-[.5vw] w-full'><a href="#">{work.title}</a></h3>
-                            <div className='md:w-[45vw] md:h-[35vw] w-[90vw] h-[60vw] bg-cover bg-center' style={{ backgroundImage: `url(/assets/projects/${work.image})` }}></div>
+                            <div className='relative md:w-[40vw] md:h-[31vw] w-[90vw] h-[60vw] rounded-2xl overflow-hidden'>
+                                <Image
+                                    src={`/assets/projects/${work.image}`}
+                                    className='object-cover'
+                                    alt={work.title}
+                                    fill={true}
+                                />
+                            </div>
                             <p className='mt-[.5vw] text-[#DFDCDC]'>Web development, Designing</p>
                         </div>
                     </div>

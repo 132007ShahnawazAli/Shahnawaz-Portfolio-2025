@@ -4,7 +4,7 @@ import React from "react";
 function PcNavbar() {
   return (
     <header className={`fixed top-0 left-0 z-50 font-moderniz w-full  mt-3 flex justify-center`}>
-      <div className="flex justify-between w-[93%]  items-center py-[1.2vw] bg-slate-200/10 backdrop-blur-lg text-white rounded-xl px-4">
+      <div className="flex justify-between w-[93%]  items-center py-[1.2vw] bg-slate-200/10 backdrop-blur-md text-white rounded-xl px-4">
         <ul className={`nav-menu-1 flex gap-5 font-moderniz text-[.7vw] h-full items-center lowercase tracking-tight `}>
           <li>
             <Link
