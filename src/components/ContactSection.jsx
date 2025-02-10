@@ -28,8 +28,8 @@ function ContactSection() {
         <div className="md:flex hidden flex-row gap-[7vw] ">
           <div className='flex flex-col gap-[2vw]'>
             <div className='flex flex-col'>
-              <h5 className="uppercase  font-medium text-[.9vw] text-[#F8F8FF]">Location</h5>
-              <p className='uppercase  leading-tight text-[.8vw] font-normal text-[#DFDCDC]'>Delhi, INDIA <br />
+              <h5 className="uppercase  font-medium text-[.9vw] text-[#F8F8FF] hidden">Location</h5>
+              <p className='uppercase  leading-tight text-[.8vw] font-normal text-[#DFDCDC] hidden'>Delhi, INDIA <br />
                 Shastri Park <br />
                 Delhi - 110053</p>
             </div>

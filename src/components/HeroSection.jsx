@@ -22,7 +22,7 @@ function HeroPage() {
             <p className="showcase-location w-[60%] text-[.8vw] font-normal text-[#DFDCDC] capitalize">EXPERT IN BUILDING HIGH-PERFORMING WEBSITES</p>
           </div>
           <div className="about-showcase flex flex-col gap-[.7vw] w-fit ">
-            <h3 className="showcase-availability flex flex-col gap-[.7vw] text-[.9vw] font-medium text-[#F8F8FF] w-[70%] ">BASED IN INDIA</h3>
+            <h3 className="showcase-availability hidden flex-col gap-[.7vw] text-[.9vw] font-medium text-[#F8F8FF] w-[70%] ">BASED IN INDIA</h3>
             <p className="showcase-bio text-[.8vw] font-normal text-[#DFDCDC] w-[60%] ">CURRENTLY AVAILABLE FOR FREELANCE WORLDWIDE</p>
           </div>
           <svg width="8" height="77" viewBox="0 0 8 77" fill="none" xmlns="http://www.w3.org/2000/svg" className=" scroll-arrow self-end block ml-auto">

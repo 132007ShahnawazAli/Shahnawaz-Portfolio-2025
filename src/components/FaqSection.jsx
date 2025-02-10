@@ -78,7 +78,7 @@ function FaqSection() {
                 </h3>
                 <div className="flex flex-col gap-[1.3vw] items-start w-fit justify-start ">
                     <p className="leading-[1.3vw] text-[1.3vw] text-[#f8f8ff]">
-                    We've gathered the most common questions <br/>to make things simple.
+                    I've gathered the most common questions <br/>to make things simple.
                     If you don't find your <br/>answer here, feel free to reach out!
                     </p>
                     <div className="flex">
